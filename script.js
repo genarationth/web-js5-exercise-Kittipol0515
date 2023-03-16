@@ -28,3 +28,31 @@ while (i <=100) {
     }
     i++
 }
+// Decrease value
+let a = 10.0; 
+while (a > 0) { 
+  console.log(a); 
+  a-= 0.5; 
+}
+// 3.3
+function printSquareBrackets(n) {
+    let i = 1;
+    while (i <= n) {
+      console.log("[" + i + "]");
+      i++;
+    }
+  }
+  printSquareBrackets(6); 
+
+// 3.4
+function sumOfPositiveIntegers(n) {
+    let i = 1;
+    let sum = 0;
+    while (i <= n) {
+      sum += i;
+      i++;
+    }
+    return sum;
+  }
+  console.log(sumOfPositiveIntegers(5)); // 15
+
